@@ -1,6 +1,6 @@
 # NextJS Example: Parallel Route + Intercepting Route with a Modal
 
-This example that demonstrates the use of intercepting routes in conjunction with parallel routes,
+This example demonstrates the use of intercepting routes in conjunction with parallel routes,
 [as described in the documentation](https://nextjs.org/docs/app/building-your-application/routing/parallel-routes).
 
 ## Explanation
