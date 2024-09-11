@@ -1,10 +1,7 @@
-import Link from "next/link";
+import Bar from "@/app/components/Bar";
 
 export default function LoginPage() {
   return (
-    <>
-      <h1 className="text-6xl font-bold">Bar</h1>
-      <Link href="/">Home</Link>
-    </>
+    <Bar/>
   );
 }

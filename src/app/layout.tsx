@@ -17,11 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body>
+
     <div className="flex justify-center mt-40 min-h-dvh">
-      <div className="flex flex-col gap-8 items-center">
-        {children}
-      </div>
+      {children}
     </div>
+
 
     {foo}
     </body>
