@@ -8,17 +8,22 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-                                     auth,
+                                     foo,
                                      children,
                                    }: Readonly<{
   children: ReactNode;
-  auth: ReactNode
+  foo: ReactNode
 }>) {
   return (
     <html lang="en">
     <body>
-    {auth}
-    {children}
+    <div className="flex justify-center mt-40 min-h-dvh">
+      <div className="flex flex-col gap-8 items-center">
+        {children}
+      </div>
+    </div>
+
+    {foo}
     </body>
     </html>
   );
